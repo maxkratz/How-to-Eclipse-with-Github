@@ -23,7 +23,7 @@ For the authentification with Github, it is neccessary to create a secure key, w
 * At the bottom of the window, type in a secret passphrase
 * Click on **Save Private Key...** and save the file at a well known location.
 
-##Register your DSA-Key with Github
+## Register your DSA-Key with Github
 * Open your previous generated file with a text-editor (e.g. Notepad or SublimeText) and copy the whole text to your clipboard (**STRG+C/CMD+C**)
 * On the Github-page go to your **Settings/SSH and GPG keys**
 * Click on **New SSH key**
@@ -31,13 +31,13 @@ For the authentification with Github, it is neccessary to create a secure key, w
 * Click on **Add SSH key**
 ![Add the DSA-key](./img/03_add_ssh-key.png)
 
-##Create a new Repository on Github
+## Create a new Repository on Github
 * On Github click on **New repository** and give the new repository a name
 * Do NOT select the option **Initialize this repository with a README**
 * Click on **Create repository**
 ![Create a new Repository on Github](./img/04_create_repo.png)
 
-##Import the Github Repository in Eclipse
+## Import the Github Repository in Eclipse
 * In Eclipse, go to **Window/Show View/Other...**
 * Select **Git/Git Repositories**
 * A new view should appear
@@ -55,14 +55,14 @@ For the authentification with Github, it is neccessary to create a secure key, w
 * You should now have a GIT-view of your repositories (probablly just one)
 ![GIT-repo view](./img/07_git-repo_view.png)
 
-##Link Eclipse-Projects with your Repository
+## Link Eclipse-Projects with your Repository
 You have to link your Eclipse-Projects with your Github-Repository to push data to Github.   
 
 * Right click on your project **Team/Share Project...**
 * Select your repository and click **Finish**
 ![Configure Git Repository](./img/08_share_project.png)
 
-##Upload source-files to Github
+## Upload source-files to Github
 * Click on your repository (in the repository-view)
 * Drag all entries from the field **Unstaged Changes(n)** to the filed **Staged Changes(m)**
 * Write a nice **Commit Message** like *This is my first commit*
@@ -79,11 +79,11 @@ You have to link your Eclipse-Projects with your Github-Repository to push data 
 * Click **OK**
 ![Push completed](./img/12_push_completed.png)
 
-##The end
+## The end
 The upload of your project to Github is finished. You can now open the repository on Github and check your source-files.
 ![Your source-files on Github](./img/13_source_on_github.png)
 
-##References
+## References
 [Max Rohde - Eclipse and Github Tutorial](https://maxrohde.com/2012/05/25/eclipse-and-github-tutorial/)  
 [Git with Eclipse (EGit) – Tutorial](http://www.vogella.com/articles/EGit/article.html)  
 [Getting Started with Git, EGit, Eclipse, and GitHub](http://jeromyanglim.blogspot.co.nz/2010/11/getting-started-with-git-egit-eclipse.html)  

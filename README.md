@@ -10,11 +10,11 @@ For uploading code from eclipse, the egit-plugin is needed.
 * In Eclipse, go to **Help/Install new Software...**
 * Paste *http://download.eclipse.org/egit/updates* in **Work with:** and click **Add** 
 * Select all of the options and click **Next**
-* Accept all of the license-agreements and finish the installation.
+* Accept all of the license agreements and finish the installation.
 ![Install-window](./img/01_install.png)  
 
 ## Create a public DSA-Key in Eclipse
-For the authentification with Github, it is neccessary to create a secure key, which is known by the local Eclipse-installation and the Github-service.  
+For the authentification with Github, it is neccessary to create a secure key which is known by the local Eclipse-installation and the Github-service.  
 
 * In Eclipse, go to **Preferences/General/Network Connections/SSH2**
 * Select **Key Management**
@@ -41,7 +41,7 @@ For the authentification with Github, it is neccessary to create a secure key, w
 * In Eclipse, go to **Window/Show View/Other...**
 * Select **Git/Git Repositories**
 * A new view should appear
-* Click on **Clone a Git repositorie**
+* Click on **Clone a Git repository**
 * Paste your Repository-URL from Github in the URL-field (be sure to copy the ssh-URL from the Repository page on Github with something like **git@github.com** at the beginnig)
 ![Copy the Link of the Repository](./img/05_copy_repo_link.png)  
 
@@ -52,7 +52,7 @@ For the authentification with Github, it is neccessary to create a secure key, w
 * Click **Next** again
 * Click **Finish**
 * When you close the message of the git repository from github, you should define a repository location (e.g. in your home-folder on your system) if Eclipse prompts you to do so
-* You should now have a GIT-view of your repositories (probablly just one)
+* You should now have a GIT-view of your repositories (probably just one)
 ![GIT-repo view](./img/07_git-repo_view.png)
 
 ## Link Eclipse-Projects with your Repository

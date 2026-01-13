@@ -30,7 +30,7 @@ For the authentification with GitHub, it is neccessary to create a secure key wh
 
 * In Eclipse, go to **Preferences/General/Network Connections/SSH2**.
 * Select **Key Management**.
-* Click on **Generate DSA Key...**.
+* Click on **Generate RSA Key...**.
 
 ![Create a DSA key](./img/02_create_dsa-key.png)
 
@@ -46,7 +46,7 @@ For the authentification with GitHub, it is neccessary to create a secure key wh
 * Select a title of your choice and paste the previous copied text from your clipboard into the **Key** field (**CTRL+V/CMD+V**).
 * Click on **Add SSH key**.
 
-![Add the DSA key](./img/03_add_ssh-key.png)
+![Add the RSA key](./img/03_add_ssh-key.png)
 
 
 ## Create a new repository on GitHub

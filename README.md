@@ -24,21 +24,21 @@ For uploading code from Eclipse, the `egit-plugin` is needed.
 ![Install-window](./img/01_install.png)  
 
 
-## Create a public DSA key in Eclipse
+## Create a public RSA key in Eclipse
 
 For the authentification with GitHub, it is neccessary to create a secure key which is known by the local Eclipse installation and the GitHub service.  
 
 * In Eclipse, go to **Preferences/General/Network Connections/SSH2**.
 * Select **Key Management**.
-* Click on **Generate DSA Key...**.
+* Click on **Generate RSA Key...**.
 
-![Create a DSA key](./img/02_create_dsa-key.png)
+![Create a RSA key](./img/02_create_dsa-key.png)
 
 * At the bottom of the window, type in a secret passphrase.
 * Click on **Save Private Key...** and save the file at a well known location.
 
 
-## Register your DSA key with GitHub
+## Register your RSA key with GitHub
 
 * Open your previous generated file with a text editor (e.g., Notepad or SublimeText) and copy the whole text to your clipboard (**CTRL+C/CMD+C**).
 * On the GitHub page go to your **Settings/SSH and GPG keys**.
@@ -46,7 +46,7 @@ For the authentification with GitHub, it is neccessary to create a secure key wh
 * Select a title of your choice and paste the previous copied text from your clipboard into the **Key** field (**CTRL+V/CMD+V**).
 * Click on **Add SSH key**.
 
-![Add the DSA key](./img/03_add_ssh-key.png)
+![Add the RSA key](./img/03_add_ssh-key.png)
 
 
 ## Create a new repository on GitHub
